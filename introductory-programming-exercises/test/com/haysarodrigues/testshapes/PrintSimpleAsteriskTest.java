@@ -15,6 +15,7 @@ public class PrintSimpleAsteriskTest {
 
         PrintSimpleAsterisk printSimpleAsterisk = new PrintSimpleAsterisk();
         String expectedResult = "*";
+
         String actualResult = printSimpleAsterisk.getAsteriskLine(1);
 
         Assert.assertEquals(expectedResult, actualResult);
@@ -26,6 +27,7 @@ public class PrintSimpleAsteriskTest {
 
         PrintSimpleAsterisk printSimpleAsterisk = new PrintSimpleAsterisk();
         String expectedResult = "********";
+
         String actualResult = printSimpleAsterisk.getAsteriskLine(8);
 
         Assert.assertEquals(expectedResult, actualResult);
@@ -35,6 +37,13 @@ public class PrintSimpleAsteriskTest {
     @Test
     public void validateThat_printVerticalAsteriskLine_willPrintVerticalLine() {
 
+        PrintSimpleAsterisk printSimpleAsterisk = new PrintSimpleAsterisk();
+        String expectedResult = "*\n*\n*\n*\n*";
+
+        String actualResult = printSimpleAsterisk.convertListToString(printSimpleAsterisk.printVerticalAsteriskLine(5));
+
+        Assert.assertEquals(expectedResult, actualResult);
+
     }
 
     @Test
@@ -42,10 +51,9 @@ public class PrintSimpleAsteriskTest {
 
         String expectedResult = "*\n" + "**" + "\n***";
         PrintSimpleAsterisk printSimpleAsterisk = new PrintSimpleAsterisk();
-
         List<String> asteriskArray = new ArrayList<>();
-        asteriskArray = printSimpleAsterisk.increaseAsterisk(3);
 
+        asteriskArray = printSimpleAsterisk.increaseAsterisk(3);
         String actualResult = printSimpleAsterisk.convertListToString(asteriskArray);
 
         Assert.assertEquals(expectedResult, actualResult);

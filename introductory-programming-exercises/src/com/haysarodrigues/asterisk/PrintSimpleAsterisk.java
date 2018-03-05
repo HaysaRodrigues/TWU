@@ -17,7 +17,7 @@ public class PrintSimpleAsterisk {
 
     }
 
-    public static void printVerticalAsteriskLine(int charactersNumbers) {
+    public static List<String> printVerticalAsteriskLine(int charactersNumbers) {
 
         List<String> asteriskList = new ArrayList<>();
         String asterisk = "*";
@@ -25,12 +25,10 @@ public class PrintSimpleAsterisk {
         for (int count = 0; count < charactersNumbers; count++) {
 
             asteriskList.add(asterisk);
-//            System.out.println(asterisk);
-            System.out.println(asteriskList);
-
 
         }
 
+        return asteriskList;
 
     }
 
@@ -63,7 +61,8 @@ public class PrintSimpleAsterisk {
     }
 
     public static void main(String[] args) {
-        printVerticalAsteriskLine(3);
+
+
 
     }
 
