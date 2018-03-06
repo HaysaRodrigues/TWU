@@ -50,7 +50,6 @@ public class PrintSimpleAsterisk {
 
     }
 
-
     public String convertListToString(List<String> asteriskList) {
 
         String asterisk;
@@ -58,12 +57,6 @@ public class PrintSimpleAsterisk {
         asterisk = String.join("\n", asteriskList);
 
         return asterisk;
-    }
-
-    public static void main(String[] args) {
-
-
-
     }
 
 }
