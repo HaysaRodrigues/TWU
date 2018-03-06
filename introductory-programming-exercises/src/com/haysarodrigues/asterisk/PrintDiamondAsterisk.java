@@ -59,28 +59,5 @@ public class PrintDiamondAsterisk {
         return pyramidReversed;
 
     }
-
-
-    public static String convertListToString(List<String> asteriskList) {
-
-        String asterisk;
-
-        asterisk = String.join("\n", asteriskList);
-
-        return asterisk;
-    }
-
-    public static void main(String[] args) {
-
-
-        System.out.println(convertListToString(increaseTwoMoreAsteriskToCreateDiamond(10)));
-
-
-        System.out.println("================================================================================================================================================");
-
-
-        System.out.println(convertListToString(reversePyramidList(increaseTwoMoreAsteriskToCreateDiamond(10))));
-
-
-    }
+    
 }

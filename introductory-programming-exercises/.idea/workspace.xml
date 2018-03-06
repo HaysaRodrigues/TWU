@@ -20,13 +20,21 @@
       <file leaf-file-name="PrintDiamondAsterisk.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/haysarodrigues/asterisk/PrintDiamondAsterisk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            <state relative-caret-position="376">
+              <caret line="61" column="4" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#increaseTwoMoreAsteriskToCreateDiamond#0;class#PrintDiamondAsterisk#0" expanded="false" />
-                <element signature="method#main#0;class#PrintDiamondAsterisk#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/haysrodrigues/application/RunApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -35,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/resources/DiamondExercises.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="84" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="92" />
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -48,6 +56,7 @@
       <list>
         <option value="Singleton" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -70,6 +79,8 @@
         <option value="$PROJECT_DIR$/resources/TriangleExercises.feature" />
         <option value="$PROJECT_DIR$/resources/DiamondExercises.feature" />
         <option value="$PROJECT_DIR$/src/com/haysarodrigues/asterisk/PrintSimpleAsterisk.java" />
+        <option value="$PROJECT_DIR$/src/com/haysrodrigues/application/Application.java" />
+        <option value="$PROJECT_DIR$/src/com/haysrodrigues/application/RunApplication.java" />
         <option value="$PROJECT_DIR$/src/com/haysarodrigues/asterisk/PrintDiamondAsterisk.java" />
       </list>
     </option>
@@ -118,7 +129,21 @@
               <item name="triangle-exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="introductory-programming-exercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle-exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="introductory-programming-exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="asterisk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triangle-exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="introductory-programming-exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="triangle-exercises" type="b2602c69:ProjectViewProjectNode" />
@@ -156,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrintDiamondAsterisk">
+  <component name="RunManager" selected="Application.RunApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -202,6 +227,25 @@
       <module name="triangle-exercises" />
       <envs />
     </configuration>
+    <configuration name="RunApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.haysrodrigues.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.haysrodrigues.application.RunApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="triangle-exercises" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -230,31 +274,6 @@
       <option name="MAIN_CLASS_NAME" value="com.haysarodrigues.testshapes.PrintSimpleAsteriskTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="PrintSimpleAsteriskTest.validateThat_increaseAsterisk_willIncrementOneMoreAsteriskInNextLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.haysarodrigues.testshapes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="triangle-exercises" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.haysarodrigues.testshapes" />
-      <option name="MAIN_CLASS_NAME" value="com.haysarodrigues.testshapes.PrintSimpleAsteriskTest" />
-      <option name="METHOD_NAME" value="validateThat_increaseAsterisk_willIncrementOneMoreAsteriskInNextLine" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -354,17 +373,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.PrintSimpleAsterisk" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.PrintSimpleAsteriskTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PrintSimpleAsteriskTest.validateThat_increaseAsterisk_willIncrementOneMoreAsteriskInNextLine" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PrintSimpleAsteriskTest.validateThat_printVerticalAsteriskLine_willPrintVerticalLine" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PrintDiamondAsterisk" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PrintSimpleAsteriskTest.validateThat_printVerticalAsteriskLine_willPrintVerticalLine" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PrintDiamondAsterisk" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RunApplication" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PrintDiamondAsterisk" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PrintSimpleAsteriskTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PrintSimpleAsteriskTest.validateThat_printVerticalAsteriskLine_willPrintVerticalLine" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PrintSimpleAsterisk" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PrintSimpleAsteriskTest.validateThat_increaseAsterisk_willIncrementOneMoreAsteriskInNextLine" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RunApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PrintDiamondAsterisk" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PrintSimpleAsteriskTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PrintSimpleAsteriskTest.validateThat_printVerticalAsteriskLine_willPrintVerticalLine" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PrintSimpleAsterisk" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +447,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -559,14 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/DiamondExercises.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="84" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/haysarodrigues/testshapes/PrintSimpleAsteriskTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
@@ -611,14 +622,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/DiamondExercises.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/haysrodrigues/application/RunApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/haysarodrigues/asterisk/PrintDiamondAsterisk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        <state relative-caret-position="376">
+          <caret line="61" column="4" lean-forward="false" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#increaseTwoMoreAsteriskToCreateDiamond#0;class#PrintDiamondAsterisk#0" expanded="false" />
-            <element signature="method#main#0;class#PrintDiamondAsterisk#0" expanded="false" />
           </folding>
         </state>
       </provider>
