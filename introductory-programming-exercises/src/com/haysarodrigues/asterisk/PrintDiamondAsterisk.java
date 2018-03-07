@@ -7,7 +7,7 @@ import java.util.List;
 public class PrintDiamondAsterisk {
 
 
-    public static List<String> increaseTwoMoreAsteriskToCreatePyramid(int howMuchLineHasThePyramid) {
+    public List<String> increaseTwoMoreAsteriskToCreatePyramid(int howMuchLineHasThePyramid) {
 
         String character = "*";
         String asteriskLine;
@@ -44,7 +44,7 @@ public class PrintDiamondAsterisk {
 
     }
 
-    public static List<String> generateReversePyramidList(List<String> listPyramidToInvert) {
+    public List<String> generateReversePyramidList(List<String> listPyramidToInvert) {
 
         List<String> pyramidReversed = new ArrayList<>();
 
@@ -61,7 +61,7 @@ public class PrintDiamondAsterisk {
 
     }
 
-    public static String joinTwoPyramidsToFormDiamond(String firstPart, List<String> listPyramidToInvert) {
+    public String joinTwoPyramidsToFormDiamond(String firstPart, List<String> listPyramidToInvert) {
 
 
         String diamond;
