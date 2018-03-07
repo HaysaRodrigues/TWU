@@ -2,8 +2,6 @@ package com.haysrodrigues.application;
 
 import com.haysarodrigues.asterisk.PrintDiamondAsterisk;
 import com.haysarodrigues.asterisk.PrintSimpleAsterisk;
-import javafx.application.Application;
-import javafx.stage.Stage;
 
 public class RunApplication {
 
@@ -12,16 +10,17 @@ public class RunApplication {
 
         PrintSimpleAsterisk printSimpleAsterisk = new PrintSimpleAsterisk();
         PrintDiamondAsterisk printDiamondAsterisk = new PrintDiamondAsterisk();
+        String myName = "Haysa Rodrigues";
 
 
-        System.out.println(printSimpleAsterisk.convertListToString(printDiamondAsterisk.increaseTwoMoreAsteriskToCreateDiamond(10)));
+        System.out.println(printDiamondAsterisk.joinTwoPyramidsToFormDiamond(printSimpleAsterisk.convertListToString(printDiamondAsterisk.increaseTwoMoreAsteriskToCreatePyramid(10)),
+                printDiamondAsterisk.generateReversePyramidList(printDiamondAsterisk.increaseTwoMoreAsteriskToCreatePyramid(10))));
 
 
-        System.out.println("================================================================================================================================================");
-
-
-        System.out.println(printSimpleAsterisk.convertListToString(printDiamondAsterisk.reversePyramidList(printDiamondAsterisk.increaseTwoMoreAsteriskToCreateDiamond(10))));
-
+        System.out.println(printDiamondAsterisk.joinThePyramidToGenerateDiamondWithMiddleName(
+                printDiamondAsterisk.increaseTwoMoreAsteriskToCreatePyramid(3),
+                printDiamondAsterisk.generateReversePyramidList(printDiamondAsterisk.increaseTwoMoreAsteriskToCreatePyramid(3)),
+                myName));
 
 
     }

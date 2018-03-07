@@ -6,7 +6,8 @@ import java.util.List;
 
 public class PrintDiamondAsterisk {
 
-    public static List<String> increaseTwoMoreAsteriskToCreateDiamond(int howMuchLineHasThePyramid) {
+
+    public static List<String> increaseTwoMoreAsteriskToCreatePyramid(int howMuchLineHasThePyramid) {
 
         String character = "*";
         String asteriskLine;
@@ -43,7 +44,7 @@ public class PrintDiamondAsterisk {
 
     }
 
-    public static List<String> reversePyramidList(List<String> listPyramidToInvert) {
+    public static List<String> generateReversePyramidList(List<String> listPyramidToInvert) {
 
         List<String> pyramidReversed = new ArrayList<>();
 
@@ -59,5 +60,41 @@ public class PrintDiamondAsterisk {
         return pyramidReversed;
 
     }
-    
+
+    public static String joinTwoPyramidsToFormDiamond(String firstPart, List<String> listPyramidToInvert) {
+
+
+        String diamond;
+        PrintSimpleAsterisk printSimpleAsterisk = new PrintSimpleAsterisk();
+        listPyramidToInvert.remove(0);
+
+        List<String> finalList = listPyramidToInvert;
+
+        String secondPart = printSimpleAsterisk.convertListToString(finalList);
+
+        diamond = new StringBuilder().append(firstPart).append("\n").append(secondPart).toString();
+
+        return diamond;
+
+    }
+
+
+    public String joinThePyramidToGenerateDiamondWithMiddleName(List<String> normalPyramid, List<String> listPyramidToInvert, String nameInTheMiddle) {
+
+        String diamondWithName;
+        PrintSimpleAsterisk printSimpleAsterisk = new PrintSimpleAsterisk();
+
+        normalPyramid.remove(normalPyramid.remove(normalPyramid.size() - 1));
+        listPyramidToInvert.remove(0);
+
+        List<String> finalList = listPyramidToInvert;
+
+        String firstPart = printSimpleAsterisk.convertListToString(normalPyramid);
+        String secondPart = printSimpleAsterisk.convertListToString(finalList);
+
+        diamondWithName = new StringBuilder().append(firstPart).append("\n" + nameInTheMiddle + "\n").append(secondPart).toString();
+
+        return diamondWithName;
+    }
+
 }
