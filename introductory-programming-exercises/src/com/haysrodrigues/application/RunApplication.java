@@ -3,7 +3,6 @@ package com.haysrodrigues.application;
 
 import com.haysarodrigues.asterisk.PrintDiamondAsterisk;
 import com.haysarodrigues.asterisk.PrintSimpleAsterisk;
-import com.haysarodrigues.fizzbuzz.FizzBuzz;
 
 
 public class RunApplication {
