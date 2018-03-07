@@ -10,7 +10,7 @@ public class RunApplication {
 
         PrintSimpleAsterisk printSimpleAsterisk = new PrintSimpleAsterisk();
         PrintDiamondAsterisk printDiamondAsterisk = new PrintDiamondAsterisk();
-        String myName = "Haysa Rodrigues";
+        String myName = "Haysa";
 
 
         System.out.println(printDiamondAsterisk.joinTwoPyramidsToFormDiamond(printSimpleAsterisk.convertListToString(printDiamondAsterisk.increaseTwoMoreAsteriskToCreatePyramid(10)),
