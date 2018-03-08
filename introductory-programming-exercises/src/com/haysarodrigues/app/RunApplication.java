@@ -1,8 +1,9 @@
-package com.haysrodrigues.application;
-
+package com.haysarodrigues.app;
 
 import com.haysarodrigues.asterisk.PrintDiamondAsterisk;
 import com.haysarodrigues.asterisk.PrintSimpleAsterisk;
+import com.haysarodrigues.fizzbuzz.FizzBuzz;
+import com.haysarodrigues.primefactors.PrimeFactors;
 
 
 public class RunApplication {
@@ -12,6 +13,9 @@ public class RunApplication {
 
         PrintSimpleAsterisk printSimpleAsterisk = new PrintSimpleAsterisk();
         PrintDiamondAsterisk printDiamondAsterisk = new PrintDiamondAsterisk();
+        PrimeFactors primeFactors = new PrimeFactors();
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
         String myName = "Haysa";
 
 
@@ -25,9 +29,11 @@ public class RunApplication {
                 myName));
 
 
-//        FizzBuzz fizzBuzz = new FizzBuzz();
-//
-//        System.out.println(fizzBuzz.generateFizzBuzz(100));
+        System.out.println(fizzBuzz.generateFizzBuzz(30));
+
+        System.out.println(primeFactors.generatePrimeFactorsNumbers(30));
+
+
     }
 
 

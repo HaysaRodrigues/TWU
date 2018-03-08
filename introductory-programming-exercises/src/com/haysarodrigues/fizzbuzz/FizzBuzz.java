@@ -5,14 +5,13 @@ import java.util.List;
 
 public class FizzBuzz {
 
-    public static ArrayList generateFizzBuzz(int limit) {
-
+    public static ArrayList generateFizzBuzz(int howManyNumbers) {
 
         int count;
 
         List numbersList = new ArrayList();
 
-        for (count = 1; count <= limit; count++) {
+        for (count = 1; count <= howManyNumbers; count++) {
 
 
             boolean isDivisibleByThree = count % 3 == 0;

@@ -1,10 +1,10 @@
 Feature: Diamond Exercises
 
-  #OK
+  #DONE
   Scenario: Given a number n, print a centered triangle
 
-  #OK
+  #DONE
   Scenario: Given a number n, print a centered diamond. Example for n=3:
 
-  #OK
+  #DONE
   Scenario: Given a number n, print a centered diamond with your name in place of the middle line. Example for n=3:
